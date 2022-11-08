@@ -27,6 +27,7 @@ The purpose of this app is to get the infrastructure set up so the app itself is
 - All the secrets for deployment, the organization and the region needs to be inside the `.env` file for local development.
 - All the secrets for deployment, the organization and the region needs to be inside github actions secrets for CI/CD deployment.
 - The latest possible version of each library need to be used.
+- All the parts need to be in terraform so an identical app should be able to created at any point by directing aws to another organization.
 
 ## API 
 
