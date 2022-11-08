@@ -57,7 +57,7 @@ Here are the steps for the CI/CD:
 - Run the BE test
 - Run the FE test
 - Run the FE build
-- Deploy the app
+- Deploy the infrastructure and the app
 
 ## Delivery
 
