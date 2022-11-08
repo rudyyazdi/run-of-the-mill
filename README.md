@@ -10,6 +10,8 @@ This repo is consist of the following pieces:
 - Pipeline: A CI/CD tool that tests the above parts and deploys the new versions.
 - IAC: Some terraform modules that know how to create or modify the underlying resources.
 
+The goal is to develop this repository to a state that it can be spun up using terraform in AWS with CI/CD also working.
+
 ## Function of the app
 
 The purpose of this app is to get the infrastructure set up so the app itself is very simple. 
@@ -28,6 +30,7 @@ The purpose of this app is to get the infrastructure set up so the app itself is
 - All the secrets for deployment, the organization and the region needs to be inside github actions secrets for CI/CD deployment.
 - The latest possible version of each library need to be used.
 - All the parts need to be in terraform so an identical app should be able to be created at any point just by directing aws to another organization.
+- `api/schema.graphql` is final and does not need to change. 
 
 ## API 
 
