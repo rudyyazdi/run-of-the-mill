@@ -1,0 +1,22 @@
+type Message {
+  id: ID!
+  body: String!
+  ownerId: String!
+}
+
+input proposedMessage {
+  body: String!
+}
+
+type Query {
+  messages: [Message!]!
+}
+
+type Mutation {
+	addMessage(proposedMessage: proposedMessage!): Message!
+}
+
+schema {
+	query: Query
+	mutation: Mutation
+}
