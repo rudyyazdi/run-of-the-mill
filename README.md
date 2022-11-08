@@ -64,7 +64,7 @@ Here are the steps for the CI/CD:
 
 The delivery can be broken down into these steps and they need to be in separate PRs:
 
-- Step 0: Read this document and create a PR if you have any comments/questions/suggestions. Add to the readme file how to deploy this in a brand new AWS organization. e.g. where to put the credentials what commands to run etc.
+- Step 0: Read this document and create a PR if you have any comments/questions/suggestions. Add to the readme file how you think one can deploy this in a brand new AWS organization. e.g. where to put the credentials what commands to run etc.
 - Step 1: Add the script to transform the graphql into types
 - Step 2: Create and empty AppSync, dynamo and resolver using terraform
 - Step 3: Create the BE without the events or authentication. (with tests and auto deploy)
