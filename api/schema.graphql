@@ -13,10 +13,10 @@ type Query {
 }
 
 type Mutation {
-	addMessage(proposedMessage: proposedMessage!): Message!
+  addMessage(proposedMessage: proposedMessage!): Message!
 }
 
 schema {
-	query: Query
-	mutation: Mutation
+  query: Query
+  mutation: Mutation
 }

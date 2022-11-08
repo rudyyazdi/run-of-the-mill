@@ -1,4 +1,6 @@
 # run-of-the-mill
+
+[![app](https://cdn.loom.com/sessions/thumbnails/556c790a55bb4c95a7bbcf06d8826807-with-play.gif)](https://www.loom.com/share/556c790a55bb4c95a7bbcf06d8826807)
 ## Scope
 
 This repo is consist of the following pieces:
