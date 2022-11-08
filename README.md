@@ -56,17 +56,18 @@ Here are the steps for the CI/CD:
 - Run the script to transform the graphql to types.
 - Run the BE test
 - Run the FE test
+- Run the FE build
 - Deploy the app
 
 ## Delivery
 
 The delivery can be broken down into these steps and they need to be in separate PRs:
 
-Step 0: Read this document and create a PR if you have any comments/questions/suggestions.
-Step 1: Add the script to transform the graphql into types
-Step 2: Create and empty AppSync, dynamo and resolver using terraform
-Step 3: Create the BE without the events or authentication. (with tests and auto deploy)
-Step 4: Create the FE without authentication. (with tests and auto deploy)
-Step 5: Add authentication to the BE and FE. a user should not see another user's messages.
-Step 6: Add events.
+- Step 0: Read this document and create a PR if you have any comments/questions/suggestions.
+- Step 1: Add the script to transform the graphql into types
+- Step 2: Create and empty AppSync, dynamo and resolver using terraform
+- Step 3: Create the BE without the events or authentication. (with tests and auto deploy)
+- Step 4: Create the FE without authentication. (with tests and auto deploy)
+- Step 5: Add authentication to the BE and FE. a user should not see another user's messages.
+- Step 6: Add events.
 
