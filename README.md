@@ -21,7 +21,7 @@ The purpose of this app is to get the infrastructure set up so the app itself is
 
 - The code must be in github and CI/CD should be in github actions if possible.
 - Typescript should only be used as a programming language.
-- We need a way to automatically create typescript types from `api/schema.graphql` and use them in the BE and the FE. (it needs to be a npm script, see: https://www.the-guild.dev/graphql/codegen)
+- We need a way to automatically create typescript types from `api/schema.graphql` and use them in the BE and the FE. (it needs to be a npm script, see: https://www.the-guild.dev/graphql/codegen & https://www.the-guild.dev/graphql/codegen/plugins/typescript/typescript-react-apollo)
 - Frontend, backend and api are all separate npm apps, they all have one sample test that needs to run in the CI before it gets deployed.
 - You can assume the cli has the permission to assume the role `deployer` in the provided organization id.
 - All the secrets for deployment, the organization and the region needs to be inside the `.env` file for local development.
